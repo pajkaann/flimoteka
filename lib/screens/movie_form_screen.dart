@@ -109,7 +109,7 @@ class _MovieFormScreenState extends State<MovieFormScreen> {
             },
           ),
           const SizedBox(height: 12),
-          const Text('Ocjena: ${_rating.round()}',),
+          const Text('Ocjena: ${_rating.round()}'),
           Slider(
             value: _rating,
             min: 1,
